@@ -36,6 +36,7 @@ public String listEmployees(ModelMap map)
 	    hobby.add("Music");
 	    hobby.add("Chess");
 	    hobby.add("Coding");
+	    hobby.add("Movies");
 	    map.put("hobbies", hobby);
 	
 	List<EmployeeEntity> sortedNames=employeemanager.getAllEmployees();

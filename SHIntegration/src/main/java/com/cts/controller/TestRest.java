@@ -38,7 +38,7 @@ public class TestRest {
 		//String json = gson.toJson(employeemanager.getAllEmployees());
 		String json = gson.toJson(employeemanager.getAllEmployees());
 	
-		System.out.println(json);
+		//System.out.println(json);
 	    //map.addAttribute("employee", new EmployeeEntity());
 	    //return "TEST";
 		model.addAttribute("json", json);
